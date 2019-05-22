@@ -1,8 +1,8 @@
 {
-  "name": "my-react",
+  "name": "react-project",
   "version": "1.0.0",
   "description": "React project",
-  "author": "sxt",
+  "author": "project author",
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --config build/dev.js",
@@ -10,13 +10,9 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.17.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-redux": "^5.0.6",
-    "react-router-dom": "^4.2.2",
-    "redux": "^3.7.2",
-    "redux-order": "^1.0.2"
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
